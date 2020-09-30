@@ -1,0 +1,18 @@
+Steps to run the project:
+
+A.backend:
+	1.run the server 
+	2.to start the server: nodemon app.js 
+	
+B.MongoDB:
+	1.Run mongoDB server
+	2.Run mongoDb shell
+	
+	Enter following commands:
+	1.use booking
+	2.db.counters.insert({type:"user",count:1})
+	3.db.users.insert({name:"admin",mobile:"8830921563",email:"abhishek@gmail.com",password:"abhishek"})
+
+C.Front End:
+1.npm install to install node modules
+2.npm start

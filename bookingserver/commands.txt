@@ -1,0 +1,29 @@
+npm init
+
+npm install express
+npm install mongoose
+npm install lodash
+npm install -g  nodemon
+npm install bcryptjs
+npm install jsonwebtoken
+npm install multer  //for uploading images
+
+
+set KEY=admin
+
+echo %KEY%  //to find key
+
+db.users.insert({
+    name:"admin",
+    mobile:"7777777777",
+    email:"vishal@gmail.com",
+    password:"vishal",
+    id:1,
+    status:1,
+    role:"admin"
+})
+
+db.counters.insert({type:"dish",count:1})
+db.counters.insert({type:"user",count:1})
+db.counters.insert({type:"order",count:1})
+

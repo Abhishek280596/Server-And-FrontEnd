@@ -1,0 +1,14 @@
+npx create-react-app main
+
+npm install react-bootstrap bootstrap
+
+npm install @material-ui/core
+npm install @material-ui/icons --save
+npm install material-table --save
+npm install --save react-router-dom
+
+
+npm install axios
+npm install formik
+npm install -S yup
+npm install --save react-toastify
